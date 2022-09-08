@@ -2,10 +2,7 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
-	"[svelte]": {
-		"editor.defaultFormatter": "svelte.svelte-vscode"
-	},
-	"eslint.workingDirectories": ["./backend", "./client"],
+	"eslint.workingDirectories": ["./screeps"],
 	"eslint.validate": ["typescript"],
 	"prettier.singleQuote": true,
 	"svelte.plugin.svelte.format.config.singleQuote": true,
