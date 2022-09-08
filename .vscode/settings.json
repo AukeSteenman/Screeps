@@ -1,0 +1,23 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"eslint.workingDirectories": ["./backend", "./client"],
+	"eslint.validate": ["typescript"],
+	"prettier.singleQuote": true,
+	"svelte.plugin.svelte.format.config.singleQuote": true,
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.preferences.quoteStyle": "single",
+	"eslint.format.enable": true,
+	"svelte.enable-ts-plugin": true,
+	"svelte.plugin.svelte.format.config.svelteStrictMode": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"prettier.useTabs": true,
+	"svelte.plugin.svelte.format.config.printWidth": 100,
+	"prettier.trailingComma": "none",
+	"editor.formatOnType": true
+}

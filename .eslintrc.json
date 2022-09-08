@@ -1,0 +1,22 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": ["google"],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	},
+	"plugins": ["@typescript-eslint"],
+	"rules": {
+		"error": { "newIsCap": true },
+		"comma-dangle": ["error", "never"],
+		"max-len": ["error", { "code": 200 }],
+		"indent": ["error", "tab"],
+		"no-tabs": 0,
+		"linebreak-style": 0,
+		"object-curly-spacing": ["error", "always"]
+	}
+}
