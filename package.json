@@ -1,5 +1,6 @@
 {
 	"scripts": {
+		"compile:watch": "tsc -w",
 		"test:backend": "jest backend/testing --passWithNoTests",
 		"watch:backend": "jest --maxWorkers=1 --watch backend/testing",
 		"test:coverage": "jest --passWithNoTests --coverage"
@@ -11,15 +12,17 @@
 	"author": "Auke Steenman",
 	"license": "MIT",
 	"dependencies": {
-		"@types/screeps": "^3.3.0",
-		"dotenv": "^16.0.1",
 		"node": "^18.8.0"
 	},
 	"devDependencies": {
+		"@types/node": "^18.7.16",
+		"@types/screeps": "^3.3.0",
 		"@typescript-eslint/eslint-plugin": "^5.30.5",
 		"@typescript-eslint/parser": "^5.30.5",
+		"dotenv": "^16.0.1",
 		"eslint": ">=5.16.0",
 		"eslint-config-google": "^0.14.0",
+		"flatten-directory": "^1.0.8",
 		"jest": "^28.1.2",
 		"prettier": "^2.7.1",
 		"ts-node": "^10.8.2",

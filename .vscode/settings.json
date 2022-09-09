@@ -16,5 +16,6 @@
 	"prettier.useTabs": true,
 	"svelte.plugin.svelte.format.config.printWidth": 100,
 	"prettier.trailingComma": "none",
-	"editor.formatOnType": true
+	"editor.formatOnType": true,
+	"typescript.updateImportsOnFileMove.enabled": "always"
 }
